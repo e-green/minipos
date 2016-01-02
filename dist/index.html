@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Minimalist starter - Angular 2</title>
+  <base href="/">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- inject:css -->
+  <link rel="stylesheet" href="/lib/bootstrap.min.css">
+  <!-- endinject -->
+
+</head>
+<body data-app-version="0.0.1">
+
+  <app>Loading...</app>
+
+  <!-- inject:js -->
+  <script src="/lib/es6-shim.min.js"></script>
+  <script src="/lib/system.src.js"></script>
+  <script src="/lib/angular2-polyfills.js"></script>
+  <script src="/lib/system.config.js"></script>
+  <script src="/lib/angular2.min.js"></script>
+  <script src="/lib/router.js"></script>
+  <script src="/lib/http.min.js"></script>
+  <!-- endinject -->
+
+  <script>
+    System.import('bootstrap')
+      .catch(function (e) {
+        console.error(e);
+      });
+  </script>
+
+</body>
+</html>
